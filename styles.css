@@ -14,12 +14,16 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  }
+.p{
   
+  height:80px;
+  float:right;
 }
 .container {
   width: 90%;
-height:730px;
-margin-top:30px;
+height:750px;
+margin-top:10px;
   max-width: 500px;
   
   padding: 20px;
@@ -30,7 +34,7 @@ margin-top:30px;
 }
 @media screen and (max-width:720px){
   .container{
-    margin-top:30px;
+    margin-top:10px;
   }
 }
 .form-group {
